@@ -1,47 +1,25 @@
 ﻿# portifolio
 
-## 👋 OII SOU O DAVI
+## 👋 Ola, Este aqui é o meu portifólio
 
-<img height=200 align="center" src="https://i.imgur.com/JzZVlTS.gif" />
+<img height=200 align="center" src="https://i.kym-cdn.com/photos/images/newsfeed/002/619/257/f4e.gif" />
 
-## 👀 Sobre Mim!
+## 📌 Meu Portfólio Pessoal
 
-- Sou formado em Técnico em Informática para Internet com foco em Desenvolvimento Web pela ETEC.
+- Bem-vindo ao repositório do meu portfólio! 🚀
 
-- Atualmente, sou estudante do 1.º ano de Engenharia da Computação na Universidade de Taubaté (UNITAU), onde desenvolvo competências em programação, algoritmos, redes de computadores e sistemas embarcados. Conquistei uma bolsa de estudos integral por mérito, sendo reconhecido como o melhor aluno do ensino médio, o que me permitiu ingressar na universidade sem custos.
+- Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e projetos de forma interativa e moderna.
 
 - Tenho interesse em desenvolvimento de software, inteligência artificial e tecnologia da informação, e estou sempre à procura de oportunidades para expandir o meu conhecimento e ganhar experiência prática na área.
 
-## 👾💪 Meus Hobbys
+🎯 Funcionalidades
 
-- Esporte ⚽️
-- Musculação 💪
-- Filmes 🎦
-- Séries 🎦
-- Ficção 🧹
-- ciência ☄
-- vídeo games 🎮
-- RPG 🎲
-- Música 🎶
-- Formula 1 🏎🏁
+- 📌 Página sobre mim, com minha trajetória acadêmica e profissional
+- 📌 Seção de projetos desenvolvidos, com links e descrições
+- 📌 Contato e links para redes sociais
+- 📌 Design responsivo para diversos dispositivos
 
-## 🤩🏆 Minhas Conquistas
-
-- 🏆 Tive a oportunidade de participar de uma palestra no INPE (Instituto Nacional de Pesquisas Espaciais), o que ampliou minha visão sobre tecnologia e inovação científica.
-- 👑 Conquistei uma bolsa de estudos integral por meio do Programa de Acesso ao Ensino Superior (PROMAES), sendo reconhecido como o melhor aluno do meu colégio no Ensino Médio.
-
-## 📃📃 GitHub Status
-
-<div align="center">
-<a href="https://github.com/d4vi-max/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=d4vi-max&theme=dracula" />
-</a>
-<a href="https://github.com/d4vi-max/convoychat">
-  <img height=200 width=550 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=d4vi-max&layout=compact&langs_count=8&card_width=320&theme=dracula" />
-</a>
-</div>
-
-## 👨‍💻💻 Tecnologias - Ferramentas
+## 🔹 Tecnologias utilizadas
 
 <div align="center" style="display: inline_block"><br>
     <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">

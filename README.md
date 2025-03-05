@@ -2,7 +2,7 @@
 
 ## 👋 Ola, Este aqui é o meu portifólio
 
-<img height=200 align="center" src="https://i.kym-cdn.com/photos/images/newsfeed/002/619/257/f4e.gif" />
+<img height=200 align="center" src="https://i.pinimg.com/originals/a6/80/22/a680226e0416d012ca1144c120b11bf6.gif" />
 
 ## 📌 Meu Portfólio Pessoal
 
@@ -39,11 +39,14 @@
     <a href="mailto:davi.martins1362@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-%23333333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
     </a>
+    <a href="https://x.com/D4VI_I" target="_blank">
+        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank">
+    </a>
     <a href="https://www.linkedin.com/in/davi-nic%C3%A9sio-a35480279/" target="_blank">
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
     </a>
 </div>
 
-<div align="center" >
-<img height=200 align="center" src="https://media3.giphy.com/media/kSxi9DiWH4Q8q1Kbql/giphy.gif?cid=6c09b9528opnifkxjnoo6dlativ2ho40bzizr6n4pqg557wf&ep=v1_stickers_search&rid=giphy.gif&ct=s" />
+<div align="center">
+    <img height=200 align="center" src="https://i.kym-cdn.com/photos/images/newsfeed/002/619/257/f4e.gif" />
 </div>

@@ -12,7 +12,7 @@
 
 - Tenho interesse em desenvolvimento de software, inteligência artificial e tecnologia da informação, e estou sempre à procura de oportunidades para expandir o meu conhecimento e ganhar experiência prática na área.
 
-🎯 Funcionalidades
+## 🎯 Funcionalidades
 
 - 📌 Página sobre mim, com minha trajetória acadêmica e profissional
 - 📌 Seção de projetos desenvolvidos, com links e descrições
@@ -25,8 +25,6 @@
     <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     <img align="center" height="65" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
-    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
 </div>
 
 ## 📌📌 Contatos
@@ -43,9 +41,6 @@
     </a>
     <a href="https://www.linkedin.com/in/davi-nic%C3%A9sio-a35480279/" target="_blank">
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-    </a>
-    <a href="https://x.com/D4VI_I" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg">
     </a>
 </div>
 

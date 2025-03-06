@@ -168,9 +168,29 @@ span{
     }
 }
 
+.Me2{
+    animation: Me 2.5s infinite;
+}
+
+@keyframes Me2 {
+    50% {
+        transform: translateY(-6%);
+    }
+}
+
 .home-img img:hover{
     transform: scale(1.01);
     filter: drop-shadow( 0 0 25px var(--main-color) );
+}
+
+.home-img2{
+    transform: scale(1.01);
+    filter: drop-shadow( 0 0 25px var(--main-color) );
+}
+
+.Me2{
+    border-radius: 50px;
+    margin-top: 20%;
 }
 
 .home-content p{
@@ -397,5 +417,140 @@ span{
     }
     .services-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*Hobbys*/
+
+.Hobbys{
+    background: var(--bg-color);
+}
+
+.Hobbys .container{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.Hobbys .container .row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.Hobbys .container .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    box-shadow: 0 4px 10px var(--main-color);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.Hobbys .container .bar:hover {
+    box-shadow: 0 4px 10px var(--main-color);
+    transform: scale(1.03);
+}
+
+.Hobbys .container .bar .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.Hobbys .container .bar .info .span{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.img-hobbys{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+/*Habilidades*/
+
+.Skills{
+    background: var(--second-bg-color);
+}
+
+.Skills .container{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.Skills .container .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.Skills .container .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    box-shadow: 0 4px 10px var(--main-color);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.Skills .container .bar:hover {
+    box-shadow: 0 4px 10px var(--main-color);
+    transform: scale(1.03);
+}
+
+.Skills .container .bar .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.Skills .container .bar .info .span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.img-Skills{
+    width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .skills .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .skills .container .row {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
+    }
+
+    .skills .container {
+        margin-top: 5px;
+        width: 100%;
     }
 }

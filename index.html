@@ -7,7 +7,6 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/logo.jpg" />
-    <script src="script.js"></script>
 
     <!-- Font awesome import -->
     <link
@@ -29,7 +28,7 @@
         <a href="#home" class="active">Home</a>
         <a href="#Services">Services</a>
         <a href="#Skills">Skills</a>
-        <a href="#Education">Education</a>
+        <a href="#education">Education</a>
         <a href="#Experience">Experience</a>
         <a href="#Contact">Contact</a>
       </nav>
@@ -43,7 +42,7 @@
         <h1>Oii, sou o <span>Davi 👋</span></h1>
         <h3 class="typing-text">Eu sou <span></span></h3>
         <p>
-          Atualmente, estou no 1.º ano de Engenharia da Computação na UNITAU,
+          Atualmente, estou no <span id="ano"></span>1ºano de Engenharia da Computação na UNITAU,
           onde aprofundo meus conhecimentos em programação, algoritmos, redes de
           computadores e sistemas embarcados. Conquistei uma bolsa de estudos
           integral por mérito, sendo reconhecido como o melhor aluno do ensino
@@ -155,20 +154,33 @@
           <span>Sou Davi 👋</span>
         </h1>
         <p class="sobre-texto">
-          Sou formado em Técnico em Informática para Internet com foco em
-          Desenvolvimento Web pela ETEC. <br />
           <br />
-          Atualmente, sou estudante do 1.º ano de Engenharia da Computação na
-          Universidade de Taubaté (UNITAU), onde desenvolvo competências em
-          programação, algoritmos, redes de computadores e sistemas embarcados.
-          Conquistei uma bolsa de estudos integral por mérito, sendo reconhecido
-          como o melhor aluno do ensino médio, o que me permitiu ingressar na
-          universidade sem custos. <br />
+          Meu nome é <span>Davi Nicésio Martins de Resende</span>, tenho
+          <span id="idade"></span> anos e sou <span>estudante do primeiro ano de
+            Engenharia da Computação na Universidade de Taubaté (UNITAU)</span>,
+          localizada no estado de São Paulo. <br />
           <br />
-          Tenho interesse em desenvolvimento de software, inteligência
-          artificial e tecnologia da informação, e estou sempre à procura de
-          oportunidades para expandir o meu conhecimento e ganhar experiência
-          prática na área.
+          Desde o ano de 2024, venho desenvolvendo habilidades na área da
+          tecnologia, com um foco especial em programação e desenvolvimento de
+          sistemas. Antes de ingressar na universidade, <span>formei-me no curso de
+          Técnico em Informática para Internet na Escola Técnica Estadual
+          (ETEC)</span>. Durante minha formação técnica, adquiri conhecimentos
+          avançados em desenvolvimento web, com <span> proficiência nas linguagens
+          HTML, CSS, PHP, SQL e Bootstrap </span>. Essas habilidades têm me permitido
+          não apenas entender o funcionamento de sistemas e redes, mas também
+          criar e otimizar aplicações web de maneira eficiente.
+          <br />
+          <br />
+          Atualmente, estou ampliando meu conhecimento e habilidades em
+          Engenharia da Computação, buscando explorar áreas como <span> algoritmos,
+          inteligência artificial e sistemas embarcados </span>. Além disso, estou
+          sempre em busca de <span>oportunidades</span> para aplicar o que aprendo de maneira
+          prática, seja em projetos acadêmicos ou estágios.
+          <br />
+          <br />
+          Estou motivado para expandir meu conhecimento e contribuir de maneira
+          significativa para o campo da tecnologia e computação, com uma
+          abordagem focada em inovação e soluções criativas.
         </p>
       </div>
     </section>
@@ -267,9 +279,73 @@
               <span>BOOTSTRAP</span>
             </div>
           </div>
-
         </div>
       </div>
     </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Education</span></h2>
+      <div class="timeline">
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2>Palestra no INPE.</h2>
+            </div>
+            <div class="docs">
+              <p>
+                Tive a oportunidade de participar de uma palestra no INPE
+                (Instituto Nacional de Pesquisas Espaciais) em 2022, o que
+                ampliou minha visão sobre tecnologia e inovação científica.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2>Escola Estadual Américo Alves.</h2>
+            </div>
+            <div class="docs">
+              <p>
+                Conquistei uma bolsa de estudos integral por mérito no ano de
+                2024, sendo reconhecido como o melhor aluno do ensino médio, o
+                que me permitiu ingressar na universidade sem custos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2>Colégio Tecnico - ETEC</h2>
+            </div>
+            <div class="docs">
+              <p>
+                Formei-me no ano de 2024 na Escola Técnica Estadual (ETEC), no
+                curso de Técnico em Informática para Internet, adquirindo
+                habilidades como desenvolvedor web, com proficiência nas
+                linguagens HTML, CSS, PHP, SQL e Bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2>Universidade - UNITAU</h2>
+            </div>
+            <div class="docs">
+              <p>
+                Atualmente, estou cursando Engenharia da
+                Computação na Universidade de Taubaté (UNITAU), localizada no
+                estado de São Paulo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/logo.jpg" />
+    
 
     <!-- Font awesome import -->
     <link
@@ -22,16 +23,15 @@
     <header class="header">
       <a href="#" class="logo"> Portifólio - Davi Nicésio </a>
 
-      <i class="fa-solid fa-bars menu-icon"></i>
+      <i class="fa-solid fa-bars" id="menu-icon" ></i>
 
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#Services">Services</a>
         <a href="#Skills">Skills</a>
         <a href="#education">Education</a>
-        <a href="#Experience">Experience</a>
-        <a href="#Contact">Contact</a>
-        <a href="#curriculo">Curriculum</a>
+        <a href="#curriculo">Experience</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -263,8 +263,22 @@
 
           <div class="bar">
             <div class="info">
+              <img class="img-Skills" src="img/js.png" />
+              <span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
               <img class="img-Skills" src="img/php.png" />
               <span>PHP</span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <img class="img-Skills" src="img/bootstrap.png" />
+              <span>BOOTSTRAP</span>
             </div>
           </div>
 
@@ -275,12 +289,6 @@
             </div>
           </div>
 
-          <div class="bar">
-            <div class="info">
-              <img class="img-Skills" src="img/bootstrap.png" />
-              <span>BOOTSTRAP</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -351,7 +359,7 @@
     <br><br>
 
     <h2 class="heading"> Meu <span>Curriculo</span></h2>
-    <div class="container-curriculo" id="curriculo">
+    <div class="container-curriculo"  id="curriculo" >
       <div class="left_Side">
         <div class="profileText">
           <div class="imgBx">
@@ -426,7 +434,7 @@
             <span id="idade"></span> anos <br /><br />
             Sou formado em Técnico em Informática para Internet com foco em
             Desenvolvimento Web pela ETEC. <br /><br />
-            Atualmente, estou no<span id="ano-universidade"></span> de Engenharia da Computação na UNITAU,
+            Atualmente, estou no<span id="ano-universidade-2"></span> de Engenharia da Computação na UNITAU,
             onde aprofundo meus conhecimentos em programação, algoritmos, redes
             de computadores e sistemas embarcados. <br /><br />
             Conquistei uma bolsa de estudos integral por mérito, sendo
@@ -533,8 +541,68 @@
       >
     </div>
 
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="">
+          <div class="input-box">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" placeholder="Email" required>
+              <input type="number" placeholder="Phone Number" required>
+              <input type="text" placeholder="Subject">
+          </div>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+              <path id="gentle-wave"
+                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="var(--second-bg-color)" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="var(--second-bg-color)" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="var(--second-bg-color)" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="var(--main-color)" />
+          </g>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="social">
+          <a href="https://www.linkedin.com/in/davi-nic%C3%A9sio-a35480279/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/zd4vi_i/"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://github.com/d4vi-max"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/D4VI_I"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <ul class="list">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">FAQ</a></li>
+      </ul>
+
+      <p class="copyright">
+        &#169
+        <span id="ano-copyright" class="ano-sem-cor"></span> Davi Nicésio | Todos os direitos reservados.
+      </p>
+    </footer>
+
     </section>
 
     <script src="script.js"></script>
+    <script>
+      // Obtém o ano atual
+      const anoAtual = new Date().getFullYear();
+
+    // Atualiza o conteúdo do elemento HTML com o ID "ano-copyright"
+    document.getElementById('ano-copyright').textContent = anoAtual;
+    </script>
+    
   </body>
 </html>

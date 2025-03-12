@@ -1025,33 +1025,6 @@ span{
     color: white;
   }
 
-  .voltar {
-    background-color: var(--main-color);
-    padding: 1rem;
-    text-align: center;
-    margin-top: 20px;
-    width: 48%;
-    border-radius: 20px;
-    box-shadow: 0 0 25px;
-    margin-bottom: 100px;
-  }
-
-  .voltar a {
-    display: inline-block;
-    background-color: var(--main-color);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: 0.3s;
-  }
-
-  .voltar a:hover {
-    background-color: var(--main-color);
-    color: white;
-  }
-
   /*Contato*/
 
 .contact h2 {
@@ -1063,7 +1036,7 @@ span{
     max-width: 70rem;
     margin: 1rem auto;
     margin-bottom: 3rem;
-    text-align: center;
+    font-size: 15px;
 }
 
 .contact form .input-box {
@@ -1087,6 +1060,91 @@ span{
 
 .contact form .btn {
     margin-top: 2rem;
+}
+
+form {
+  width: 100%;
+  max-width: 30rem;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  color: white;
+  border: 0.125rem solid transparent;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background: var(--second-bg-color);
+  border: 2px solid var(--main-color);
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 0.3125rem #26344a;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: #84868f;
+}
+
+textarea {
+  min-height: 12.5rem;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  border-radius: 99px;
+  color: white;
+  margin-top: 20px;
+  background: var(--main-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: var(--main-color);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #555b69;
+}
+
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  color: greenyellow;
+}
+
+.error {
+  color: tomato;
 }
 
 
@@ -1254,3 +1312,126 @@ span{
       padding: 2rem 3%;
     }
   }
+
+  /* Estilo do Menu Mobile */
+.menu-mobile {
+  background-color: #000;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%; /* Esconde o menu fora da tela */
+  z-index: 99999;
+  width: 70%;
+  transition: right 0.3s ease;
+}
+
+.menu-mobile.active {
+  right: 0; /* Mostra o menu */
+}
+
+.menu-mobile .btn-fechar {
+  padding: 20px 5%;
+  text-align: right;
+}
+
+.menu-mobile .btn-fechar i {
+  color: var(--main-color);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu-mobile nav ul {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-mobile nav ul li a {
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 5%;
+}
+
+/* Estilo do Menu Mobile */
+.menu-mobile {
+  background-color: #000;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%; /* Esconde o menu fora da tela */
+  z-index: 99999;
+  width: 70%;
+  transition: right 0.3s ease; /* Animação suave */
+}
+
+.menu-mobile.active {
+  right: 0; /* Mostra o menu */
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  #menu-icon {
+      display: block; /* Mostra o ícone em telas menores */
+  }
+
+  .navbar {
+      display: none; /* Esconde o menu normal em telas menores */
+  }
+
+  .menu-mobile {
+      display: block; /* Garante que o menu mobile seja mostrado em telas menores */
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-mobile {
+      display: none; /* Esconde o menu mobile em telas maiores */
+  }
+
+  .navbar {
+      display: flex; /* Mostra o menu normal em telas maiores */
+  }
+}
+
+/* Animação */
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animação de slide-up */
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Classes para ativar as animações */
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.5s; /* Ajuste o delay conforme necessário */
+}
+
+.slide-up {
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.5s; /* Ajuste o delay conforme necessário */
+}
+
+/* Esconde os elementos inicialmente */
+.hidden {
+  opacity: 0;
+}
+

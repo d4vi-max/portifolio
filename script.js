@@ -61,3 +61,4 @@ document.getElementById("download-pdf").addEventListener("click", function () {
     doc.fromHTML(document.body, 15, 15); // Converte HTML para PDF
     doc.save("curriculo.pdf"); // Salva o arquivo
 });
+

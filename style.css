@@ -1435,3 +1435,60 @@ button:disabled {
   opacity: 0;
 }
 
+.custom-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  margin-top: 2%;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+  /* Transição suave */
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  /* Efeito de elevação ao passar o mouse */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* Sombra mais intensa no hover */
+  font-size: 15px;
+}
+
+.custom-card .card-body {
+  color: white;
+  /* Cor do texto */
+  font-size: 15px;
+}
+
+.custom-card .card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.custom-card .card-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  flex-grow: 1;
+  font-size: 15px;
+}
+
+.msv {
+  margin-top: 15%;
+}
+
+@media (max-width: 767px) {
+  .msv {
+      margin-top: 35%;
+  }
+}
+

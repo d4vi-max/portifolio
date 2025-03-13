@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Created By SanikaCoder -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.jpg" />
+    
+
+    <!-- Font awesome import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo"> Portifólio - Davi Nicésio </a>
+
+      <!-- Ícone para abrir o menu mobile -->
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <!-- Menu Desktop -->
+      <nav class="navbar">
+        <a href="index.html#home" class="active">Home</a>
+        <a href="index.html#Services">Services</a>
+        <a href="index.html#Skills">Skills</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#curriculo">Experience</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <!-- Menu Mobile -->
+      <div class="menu-mobile" id="menu-mobile">
+        <!-- Ícone para fechar o menu mobile -->
+        <div class="btn-fechar" id="btn-fechar">
+          <i class="fa-solid fa-times"></i>
+        </div>
+
+        <!-- Links do menu mobile -->
+        <nav>
+          <ul>
+            <li><a href="index.html#home" class="active">Home</a></li>
+            <li><a href="index.html#Services">Services</a></li>
+            <li><a href="index.html#Skills">Skills</a></li>
+            <li><a href="index.html#education">Education</a></li>
+            <li><a href="index.html#curriculo">Experience</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section class="home home-animation hidden" id="direitos">
+        <div class="home-content home-direitos">
+            <center><h3>Missão, Visão e Valores</h3></center> <br>
+
+
+            <div>
+              <div class="custom-card">
+                  <div class="card-body">
+                      <h3 class="card-title">Missão</h3>
+                      <p class="card-text">Fornecer serviços especializados e soluções inovadoras em Desenvolvimento Web e suas mais diversas áreas,
+                        criando experiências eficientes e impactantes para clientes e usuários.</p>
+                  </div>
+              </div>
+
+              <div class="custom-card">
+                <div class="card-body">
+                    <h3 class="card-title">Visão</h3>
+                    <p class="card-text">Ser reconhecido como um profissional referência no desenvolvimento de soluções tecnológicas sob medida, destacando-me pela qualidade, inovação e eficiência nos projetos que realizo. 
+                      Busco continuamente aprimorar minhas habilidades e expandir meu impacto no mercado da tecnologia.</p>
+                </div>
+            </div>
+
+            <div class="custom-card">
+              <div class="card-body">
+                  <h3 class="card-title">Valores</h3>
+                  <p class="card-text"><li><strong>Excelência</strong>: Compromisso com qualidade.</li>
+                    <li><strong>Inovação</strong>: Buscar novas ideias e soluções.</li>
+                    <li><strong>Ética</strong>: Atuar com transparência.</li>
+                    <li><strong>Dedicação</strong>: Compromisso com projetos e desafios.</li></p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave"
+                    d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="var(--second-bg-color)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="var(--second-bg-color)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="var(--second-bg-color)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="var(--main-color)" />
+            </g>
+        </svg>
+      </div>
+  
+      <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/davi-nic%C3%A9sio-a35480279/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/zd4vi_i/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/d4vi-max"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/D4VI_I"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="normas.html">Normas e Termos</a></li>
+            <li><a href="msv.html">Missão, Visão e Valores</a></li>
+        </ul>
+  
+        <p class="copyright">
+          &#169
+          <span id="ano-copyright" class="ano-sem-cor"></span> Davi Nicésio | Todos os direitos reservados.
+        </p>
+      </footer>
+
+      <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

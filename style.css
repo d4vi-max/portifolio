@@ -66,7 +66,18 @@ html ::-webkit-scrollbar-thumb{
     color: var(--main-color);
     font-weight: 800;
     cursor: pointer;
+    height: 150px;
     transition: 0.5s ease;
+}
+
+.logo2{
+  height: 200px;
+}
+
+.logo-footer{
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
 }
 
 .logo.hover{

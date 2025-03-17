@@ -15,13 +15,19 @@ function calcularIdade(dataNascimento) {
     return idade;
 }
 
-// Atualiza a idade no site
-const elementoIdade = document.getElementById('idade');
-if (elementoIdade) {
-    elementoIdade.textContent = calcularIdade(dataNascimento);
-} else {
-    console.error('Elemento com ID "idade" não encontrado.');
+// Função para atualizar a idade no site
+function atualizarIdadeNoElemento(elementoId) {
+    const elemento = document.getElementById(elementoId);
+    if (elemento) {
+        elemento.textContent = calcularIdade(dataNascimento);
+    } else {
+        console.error(`Elemento com ID "${elementoId}" não encontrado.`);
+    }
 }
+
+// Atualiza a idade nos elementos com IDs 'idade-1' e 'idade-2'
+atualizarIdadeNoElemento('idade-1');
+atualizarIdadeNoElemento('idade-2');
 
 /* Meu ano na Universidade */
 function atualizarAnoUniversidade(idElemento) {

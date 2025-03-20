@@ -1,35 +1,18 @@
-﻿# portifolio
+# 👨‍💻 Portfólio
 
-## 👋 Ola, Este aqui é o meu portifólio
+**`Meu Portfólio`**
 
-<img height=200 align="center" src="https://i.pinimg.com/originals/a6/80/22/a680226e0416d012ca1144c120b11bf6.gif" />
-
-## 📌 Meu Portfólio Pessoal
-
-- Bem-vindo ao repositório do meu portfólio! 🚀
-
-- Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e projetos de forma interativa e moderna.
-
-- Tenho interesse em desenvolvimento de software, inteligência artificial e tecnologia da informação, e estou sempre à procura de oportunidades para expandir o meu conhecimento e ganhar experiência prática na área.
-
-## 🎯 Funcionalidades
-
-- 📌 Página sobre mim, com minha trajetória acadêmica e profissional
-- 📌 Seção de projetos desenvolvidos, com links e descrições
-- 📌 Contato e links para redes sociais
-- 📌 Design responsivo para diversos dispositivos
-
-## 🔹 Tecnologias utilizadas
-
-<div align="center" style="display: inline_block"><br>
-    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" height="65" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+<div align="center">
+  <img align="right" src="https://media.tenor.com/GnJe8bx369sAAAAi/22.gif" height="200" style="margin-right: 20px;" />
+  <div align="left">
+    <p align="justify" >
+      - Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e projetos de forma interativa e moderna.
+        Tenho interesse em desenvolvimento de software, inteligência artificial e tecnologia da informação, e estou sempre à procura de oportunidades para expandir o meu conhecimento e ganhar experiência prática na área.
+    </p>
+  </div>
 </div>
 
-## 📌📌 Contatos
-
-<div align="center" >
+<div>
     <a href="https://www.youtube.com/@d4vi_964" target="_blank">
         <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank">
     </a>
@@ -46,7 +29,27 @@
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
     </a>
 </div>
+<br/>
+<br/>
 
-<div align="center">
-    <img height=200 align="center" src="https://i.kym-cdn.com/photos/images/newsfeed/002/619/257/f4e.gif" />
+---
+
+### 🎯 Funcionalidades
+
+- 📌 Página sobre mim, com minha trajetória acadêmica e profissional
+- 📌 Seção de projetos desenvolvidos, com links e descrições
+- 📌 Contato e links para redes sociais
+- 📌 Design responsivo para diversos dispositivos
+<br/>
+<br/>
+
+---
+
+### 🤖 Linguagens e Tecnologias Utilizadas
+
+<div align="center" style="display: inline_block"><br>
+    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" height="65" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+    <img align="center" height="65" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
 </div>

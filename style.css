@@ -168,6 +168,11 @@ span{
     font-weight: 700;
 }
 
+.home-content-normas {
+  font-size: 2rem;
+  margin-top: 140px;
+}
+
 .home-img img{
     border-radius: 50%;
     position: relative;

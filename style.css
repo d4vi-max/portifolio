@@ -153,10 +153,6 @@ section{
   background: var(--bg-color);
 }
 
-.home-content {
-  max-width: 600px;
-}
-
 span{
     color: var(--main-color);
 }
@@ -217,7 +213,7 @@ span{
 }
 
 .home-content p {
-  font-size: 1.6rem;
+  font-size: 2.0rem;
   line-height: 1.6;
   margin-bottom: 3rem;
   text-align: justify;

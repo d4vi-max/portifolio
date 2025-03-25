@@ -65,23 +65,31 @@ class FormSubmit {
   formSubmit.init();
   
 
-// Aguarda o carregamento completo da página
-document.addEventListener('DOMContentLoaded', function() {
-  // Seleciona os elementos do DOM
-  const menuIcon = document.getElementById('menu-icon'); // Ícone de abrir
-  const menuMobile = document.getElementById('menu-mobile'); // Menu mobile
-  const btnFechar = document.getElementById('btn-fechar'); // Ícone de fechar
-
-  // Adiciona um evento de clique no ícone de abrir
-  menuIcon.addEventListener('click', function() {
-      menuMobile.classList.add('active'); // Adiciona a classe 'active' para mostrar o menu
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.getElementById('menu-icon');
+    const menuMobile = document.getElementById('menu-mobile');
+    const btnFechar = document.getElementById('btn-fechar');
+    const body = document.body;
+  
+    menuIcon.addEventListener('click', function() {
+      menuMobile.classList.add('active');
+      body.classList.add('menu-open');
+    });
+  
+    btnFechar.addEventListener('click', function() {
+      menuMobile.classList.remove('active');
+      body.classList.remove('menu-open');
+    });
+  
+    // Fecha o menu ao clicar nos links
+    const menuLinks = document.querySelectorAll('.mobile-nav a');
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        menuMobile.classList.remove('active');
+        body.classList.remove('menu-open');
+      });
+    });
   });
-
-  // Adiciona um evento de clique no ícone de fechar
-  btnFechar.addEventListener('click', function() {
-      menuMobile.classList.remove('active'); // Remove a classe 'active' para esconder o menu
-  });
-});
 
 document.addEventListener('DOMContentLoaded', function() {
   const sections = document.querySelectorAll('.hidden');

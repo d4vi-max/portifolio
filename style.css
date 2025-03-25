@@ -230,8 +230,19 @@ span{
   margin-bottom: 1.5rem;
 }
 
-.social-icon {
-  margin: 2.5rem 0;
+.social-icon a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  font-size: 2rem;
+  border-radius: 50%;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
+  transition: 0.3s ease;
 }
 
 .social-icon a:hover{

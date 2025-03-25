@@ -1016,7 +1016,6 @@ span{
   text-align: center;
   margin: 30px auto;
   width: 90%;
-  max-width: 300px;
 }
 
 .baixar a {
@@ -1024,8 +1023,10 @@ span{
   padding: 12px 25px;
   background: var(--main-color);
   color: white;
+  width: 37%;
+  border-radius: 99px;
+  font-size: 15px;
   text-decoration: none;
-  border-radius: 5px;
   font-weight: 600;
   transition: 0.3s;
 }

@@ -749,287 +749,292 @@ span{
     }
 }
 
+/* Estilos para o currículo responsivo */
 .container-curriculo {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    margin: 50px;
-    background: #fff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-    margin: auto;
-  }
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
-  .container-curriculo .left_Side {
-    position: relative;
-    background: #003147;
-    padding: 40px;
-  }
+.left_Side, .right_Side {
+  padding: 30px;
+  box-sizing: border-box;
+}
 
-  .profileText {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  }
+.contactInfo{
+  padding: 30px;
+  font-size: 13px;
+}
 
+.left_Side {
+  background: #003147;
+  color: white;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .imgBx {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.profileText .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileText h2 {
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.contactInfo {
+  padding-top: 30px;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contactInfo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactInfo ul li {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo ul li .icon {
+  font-size: 1.2em;
+  margin-right: 15px;
+  color: #03a9f4;
+}
+
+.contactInfo ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contactInfo ul li a:hover {
+  color: #03a9f4;
+}
+
+.contactInfo.education-curriculo li {
+  margin-bottom: 20px;
+}
+
+.contactInfo.education-curriculo h5 {
+  color: #03a9f4;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.contactInfo.education-curriculo h4 {
+  color: white;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.right_Side {
+  background: white;
+  color: #333;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.title2 {
+  color: #003147;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.curriculo-text {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.6em;
+}
+
+.contactInfo.language .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #f00;
+  display: block; /*O elemento se estende por toda a largura do contêiner pai, independentemente do conteúdo interno.*/
+  margin-top: 30px;
+}
+
+.contactInfo.language .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.year_company {
+  margin-bottom: 10px;
+}
+
+.year_company h5 {
+  color: #848c90;
+  font-weight: 600;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.text h4 {
+  color: #2a7da2;
+  font-size: 2.0em;
+  margin: 5px 0;
+}
+
+.skills .box {
+  margin: 15px 0;
+}
+
+.skills .box h4 {
+  margin-bottom: 10px;
+}
+
+.text{
+  margin: 20px 0;
+}
+
+.text a{
+  font-size: 13px;
+}
+
+.skills .percent {
+  height: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.skills .percent div {
+  height: 100%;
+  background: #03a9f4;
+  border-radius: 5px;
+}
+
+/* Responsividade */
+@media (min-width: 992px) {
+  .container-curriculo {
+      flex-direction: row;
+  }
+  
+  .left_Side {
+      width: 35%;
+  }
+  
+  .right_Side {
+      width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
   .profileText .imgBx {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+      width: 150px;
+      height: 150px;
   }
-
-  .profileText .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
+  
   .profileText h2 {
-    color: #fff;
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1.4em;
+      font-size: 1.5em;
   }
-
-  .profileText h2 span {
-    font-size: 0.8em;
-    font-weight: 300;
+  
+  .title, .title2 {
+      font-size: 1.4em;
   }
-
-  .link-cor{
-    color: blue;
-  }
-
-  .contactInfo {
-    padding-top: 40px;
-    font-size: 15px;
-  }
-
-  .title {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
-
-  .contactInfo ul {
-    position: relative;
-  }
-
+  
   .contactInfo ul li {
-    position: relative;
-    list-style: none;
-    margin: 18px 0;
-    cursor: pointer;
+      font-size: 0.9em;
   }
+}
 
-  .contactInfo ul li .icon {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
+@media (max-width: 576px) {
+  .left_Side, .right_Side {
+      padding: 20px;
   }
-
-  .contactInfo ul li span {
-    color: #fff;
-    font-weight: 300;
+  
+  .profileText .imgBx {
+      width: 120px;
+      height: 120px;
   }
-
-  .contactInfo.education-curriculo li {
-    margin-bottom: 15px;
-  }
-
-  .contactInfo.education-curriculo h5 {
-    color: #03a9f4;
-    font-weight: 500;
-  }
-
-  .contactInfo.education-curriculo h4 {
-    color: #fff;
-    font-weight: 500;
-  }
-
-  .contactInfo.language .percent {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #f00;
-    display: block; /*O elemento se estende por toda a largura do contêiner pai, independentemente do conteúdo interno.*/
-    margin-top: 5px;
-  }
-
-  .contactInfo.language .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
-  }
-
-  .container-curriculo .right_Side {
-    position: relative;
-    background: #fff;
-    padding: 40px;
-  }
-
-  .about {
-    margin-bottom: 50px;
-    font-size: 15px;
-  }
-
-  .about:last-child {
-    margin-bottom: 0;
-  }
-
-  .title2 {
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-  }
-
-  .curriculo-text {
-    color: #333;
-    text-align: justify;
-  }
-
-  .about .box {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-  }
-
-  .about .box .year_company {
-    min-width: 150px;
-  }
-
-  .about .box .year_company {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
-  }
-
-  .about .box .text h4 {
-    text-transform: uppercase;
-    color: #2a7da2;
-    font-size: 16px;
-  }
-
-  .skills .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .skills .box h4 {
-    text-transform: uppercase;
-    color: #848c99;
-    font-weight: 500;
-  }
-
-  .skills .box .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
-  }
-
-  .skills .box .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
-  }
-
-  .interest ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .interest ul li {
-    list-style: none;
-    color: #333;
-    font-weight: 500;
-    margin: 10px 0;
-  }
-
-  @media (max-width: 1000px) {
-    .container {
-      margin: 10px;
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    .interest ul {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (max-width: 600px) {
-    .about .box {
+  
+  .box {
       flex-direction: column;
-    }
-
-    .about .box .year_company {
-      margin-bottom: 5px;
-    }
-
-    .interest ul {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    .skills .box {
-      grid-template-columns: repeat(1, 1fr);
-    }
   }
-
-  .baixar {
-    background-color: var(--main-color);
-    padding: 1rem;
-    text-align: center;
-    margin-top: 20px;
-    width: 48%;
-    border-radius: 20px;
-    box-shadow: 0 0 25px;
-    margin-bottom: 100px;
-    margin: auto;
-    margin-top: 50px;
+  
+  .year_company {
+      margin-bottom: 10px;
   }
-
-  .baixar a {
-    display: inline-block;
-    background-color:var(--main-color);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: 0.3s;
-    font-size: 20px;
+  
+  .skills .box {
+      margin: 10px 0;
   }
+}
 
-  .baixar a:hover {
-    background-color: var(--main-color);
-    color: white;
-  }
+/* Ajustes para o botão de download */
+.baixar {
+  text-align: center;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 300px;
+}
+
+.baixar a {
+  display: inline-block;
+  padding: 12px 25px;
+  background: var(--main-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.baixar a:hover {
+  background: #5a3d8a;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 
   /*Contato*/
 

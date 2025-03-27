@@ -380,6 +380,7 @@ span{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2.5rem;
   align-items: stretch;
+  text-align: justify;
 }
 
 .service-box {
@@ -884,6 +885,7 @@ span{
   color: #333;
   line-height: 1.6;
   font-size: 1.6em;
+  text-align: justify;
 }
 
 .contactInfo.language .percent {

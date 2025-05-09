@@ -23,6 +23,13 @@ html {
     overflow-x: hidden;
 }
 
+.aviso-curriculo{
+  font-size: 20px;
+  text-align: center;
+  margin: 200px;
+  color: red;
+}
+
 body {
     background: var(--bg-color);
     font-family: 'Poppins', sans-serif;

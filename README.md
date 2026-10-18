@@ -3,7 +3,6 @@
 **`Meu Portfólio`**
 
 <div align="center">
-  <img align="right" src="https://media.tenor.com/GnJe8bx369sAAAAi/22.gif" height="200" style="margin-right: 20px;" />
   <div align="left">
     <p align="justify" >
       - Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e projetos de forma interativa e moderna.
